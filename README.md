@@ -56,8 +56,8 @@ Select the option 2 -> Export genesis configurations. This will fail to create t
 4. Now the nodes can be used to begin mining blocks.
 
     * Run the nodes in separate terminal windows with the commands:
-        *  ./geth --datadir node1 --unlock " 0x15D1448C813a1Ff0193dD99fDBb0fcb301f5fEBd" --mine --rpc --allow-insecure-unlock
-        *  ./geth --datadir node2 --unlock " 0x1c164D69665b21828855565cc22b202063a0a21E" --mine --port 30304 --bootnodes "enode://27560c164943bbcbc48c68e12428fe3b293a68d30faf34c880e299d82bf05e21e0cce10c7bf798499599a0942258cfe527a52ad3e863d888dad52d5ef75c022e@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+        *  ./geth --datadir node1 --unlock " SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
+        *  ./geth --datadir node2 --unlock " SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
     * **NOTE:** Type your password and hit enter - even if you can't see it visually!
 
     
