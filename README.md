@@ -45,7 +45,7 @@ When you are back at the main menu, Select the option 2 -> Manage existing genes
 
 Select the option 2 -> Export genesis configurations. This will fail to create two of the files, but you only need networkname.json.
 
-![pupth_config](Images/pupth_config.png)
+![pupth_config](Screenshots/pupth_config.png)
 
 3. With the genesis block creation completed, we will now initialize the nodes with the genesis' json file.
 
@@ -93,4 +93,4 @@ Select the option 2 -> Export genesis configurations. This will fail to create t
 * You should see the transaction go from `Pending` to `Successful` in around the same blocktime you set in the genesis.
 
     * You can click the `Check TX Status` button to update the status.
-     ![successful transaction](Images/transaction_status.png)
+     ![successful transaction](Screenshots/transaction_status.png)

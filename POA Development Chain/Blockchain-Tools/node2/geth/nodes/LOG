@@ -1,0 +1,6 @@
+=============== Nov 5, 2021 (AEDT) ===============
+14:06:39.611348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:06:39.613352 db@open opening
+14:06:39.614352 version@stat F·[] S·0B[] Sc·[]
+14:06:39.615352 db@janitor F·2 G·0
+14:06:39.615352 db@open done T·1.9993ms
